@@ -1,0 +1,68 @@
+/* ******************************************************  MEDIA QUERY FOR LAPTOP ***************************************** */
+
+.footer {
+  background: #51267D;
+}
+.footer_content_logo {
+    padding-top: 48px;
+}
+.footer_navbar_nav{
+    color: #fff;
+    padding: 32px 0 48px;
+}
+.footer_navbar_nav .navbar_nav_item {
+    color: #fff;
+}
+.footer_navbar_nav .navbar_nav_item:hover {
+    color: #fff;
+}
+.footer_socials {
+    padding-bottom: 24px;
+    height: 90px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+.footer_socials > p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #d9dbe1;
+}
+.footer_socials_icons {
+    width: 120px;
+}
+.footer_socials_icons_card {
+    border-radius: 50%;
+    width: 32px;height: 32px;
+    background: #623B8A;
+}
+.footer_socials_by_defelopers {
+    color: #d9dbe1;
+    padding: 50px 0;
+}
+.footer_socials_icons_card {
+    color: #fff;
+    font-size: 20px;
+    font-weight: fold;
+    cursor: pointer;
+}
+
+/* ******************************************************  MEDIA QUERY FOR PHONE ***************************************** */
+
+@media screen and (min-width: 300px) and (max-width: 567px) {
+    .container {
+        width: 96%;
+    }
+    .footer_socials, .footer_socials_by_defelopers {
+        flex-direction: column
+    }
+}
+
+/* ******************************************************  MEDIA QUERY FOR TABLET ***************************************** */
+
+@media screen and (min-width: 567px) and (max-width: 900px) {
+    .container {
+        width: 85%;
+    }
+    .footer_socials, .footer_socials_by_defelopers {
+        flex-direction: column
+    }
+}

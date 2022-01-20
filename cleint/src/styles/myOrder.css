@@ -1,0 +1,160 @@
+.my_order {
+    margin-top: 32px;
+    padding: 25px 32px;
+    background-color: #fff;
+    border-radius: 12px;
+    height: auto;
+    width: 45%;
+}
+.my_order_wrapper {
+    padding: 64px 0 96px;
+}
+.my_order_body{
+    display: flex;justify-content: start;
+    padding-bottom: 40px;
+}
+.my_order_body > div >  p {
+    margin-bottom:32px;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.00735em;
+}
+.my_order_body_btn {
+    /* max-width: 338px; */
+    display: flex;justify-content: center;
+}
+
+.PurchaseHistory_card {
+    width: 350px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.PurchaseHistory_card:hover {
+    box-shadow: 0 0 10px 1px grey;
+}
+.PurchaseHistory_card > h1 {
+    color: #51267D;
+    font-size: 20px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.00735em;
+    padding: 20px 16px;
+}
+
+.PurchaseHistory_card_items {
+    padding: 24px 16px;
+}
+.PurchaseHistory_card_item{
+    margin-bottom: 20px;
+}
+
+.PurchaseHistory_card_item h2, .PurchaseHistory_card_item  h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+.PurchaseHistory_card_item  h3 {
+    color: #616161;
+}
+
+.my_order_item{
+    padding: 66px 64px;
+}
+
+.my_order_item_wrapper > h1{
+    font-size: 24px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 567px) {
+    .my_order {
+        width: 100%;
+        height: auto;
+        padding: 18px 10px;
+    }
+    .my_order_body > div {
+        width: 100%;
+    }
+    .my_order_body > div > p {
+        width: 100%;
+    }
+    
+    .PurchaseHistory_card {
+        width: 100%;
+    }
+    .PurchaseHistory_card_item h2, .PurchaseHistory_card_item h3{
+        font-size: 16px;
+    }
+    .my_order_body_btn {
+        margin-bottom: 30px;
+    }
+    .my_order_item {
+        padding: 24px 0; 
+    }
+    .my_order_item_wrapper > h1 {
+        font-size: 20px;
+    }
+    .my_order_item_table {
+        overflow: scroll;
+    }
+    .my_order_item_table_card {
+        overflow: hidden;
+        width: 700px;
+    }
+}
+
+
+@media screen and (min-width: 567px) and (max-width: 900px) {
+    .my_order {
+        width: 100%;
+        height: auto;
+        padding: 18px 10px;
+    }
+    .my_order_body > div {
+        width: 100%;
+    }
+    .my_order_body > div > p {
+        width: 100%;
+    }
+    
+    .PurchaseHistory_card {
+        width: 100%;
+    }
+    .PurchaseHistory_card_item h2, .PurchaseHistory_card_item h3{
+        font-size: 16px;
+    }
+    .my_order_body_btn {
+        margin-bottom: 30px;
+    }
+    .my_order_item {
+        padding: 24px 0; 
+    }
+    .my_order_item_wrapper > h1 {
+        font-size: 20px;
+    }
+    .my_order_item_table {
+        overflow: scroll;
+    }
+    .my_order_item_table_card {
+        overflow: hidden;
+        width: 100%;
+    }
+}

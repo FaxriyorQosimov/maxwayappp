@@ -1,0 +1,119 @@
+.my_profile {
+    padding: 96px 64px;
+}
+
+.my_profile_card{
+    width: 450px;
+    padding: 32px;
+    background: #fff;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    border-radius: 12px;
+}
+.my_profile_card > h1 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.my_profile_card > label {
+    margin-bottom: 5px;
+}
+.my_profile_card > input {
+    margin-bottom: 15px;
+    margin-top: 6px;
+    width: 100%;
+    border: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+    background: #F7F7F7;
+    border-radius: 8px;
+    padding: 18.5px 14px;
+}
+.my_profile_card > input:checked {
+    border: red;
+}
+.my_address{
+    padding: 96px 64px;
+}
+.my_address_card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.my_address_card_header {
+    display: flex;justify-content: right;
+}
+.my_address_card_header > div {
+    cursor: pointer;
+}
+.my_address_card_header > div > * {
+    font-size: 18px;
+    color: #51267d;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 5px;
+    column-gap: 5px;
+}
+
+.my_address_card_body {
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+    border-radius: 12px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.my_address_card_body_card_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #f6f6f6;
+    background: #fff;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.my_address_card_body_card_header>h1 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #000;
+}
+.my_address_card_body_card_header > div {
+    width: 30px;height: 30px;
+    cursor: pointer;
+    display: flex;align-items: center;justify-content: center;
+}
+.my_address_card_body_card_body {
+    min-height: 115px;
+    -moz-box-pack: center;
+    justify-content: center;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.my_address_card_body_card_body> p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #000;
+
+}

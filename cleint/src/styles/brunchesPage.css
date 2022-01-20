@@ -1,0 +1,139 @@
+/* ******************************************************  MEDIA QUERY FOR LAPTOP ***************************************** */
+
+.brunches{
+    padding: 70px 0;
+}
+.brunches_card{
+    width: 100%;
+    cursor: pointer;
+    display: -moz-box;
+    -moz-box-align: center;
+    align-items: center;
+    padding: 4px 0 4px 12px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    border-radius: 12px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    color: #000;
+}
+.brunches_name {
+    padding: 12px 16px;
+    width: 45%;
+}
+.brunches_name > h2 {
+    font-size: 20px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.00735em;
+}
+.brunches_name > h5 {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 6px;
+    font-weight: 400;
+}
+.brunches_work {
+    width: 50%;
+    padding: 12px 16px;
+}
+.brunches_work > h5 {
+    color: rgba(0,0,0,.5);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.brunches_work > h4 {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.brunches_icon {
+    padding: 0 26px;
+}
+
+/* ******************************************************  BRUNCHES ITEM ***************************************** */
+
+.brunch_item {
+    width: 100%;height: 100%;
+    padding: 64px 0 96px;
+}
+.brunch_item_card {
+    width: 100%;
+    height: 500px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+}
+.brunch_item_card_left_content {
+    width: 40%;
+}
+.brunch_item_card_left_content > h1 {
+    font-size: 32px;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: -0.01562em;
+    padding-bottom: 32px;
+}
+.brunch_item_card_left_content > div{
+    display: flex;align-items: center;
+    margin-top: 20px;
+}
+.brunch_item_card_left_content > div > h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.brunch_item_card_left_content_img{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.brunch_item_card_left_content_img > img {
+    width: 100%;height: 100%;
+    border-radius: 12px;
+}
+.brunch_item_card_right_content {
+    width:60%;height: 100%;
+    background: #fff;
+    margin: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+#map-basics > div{
+    width: 100%;
+}
+
+/* ******************************************************  MEDIA QUERY FOR PHONE ***************************************** */
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .brunches {
+        padding: 40px 0;
+    }
+    .brunches_work {
+        display: none;
+    }
+    .brunches_name {
+        width: 98%;
+    }
+    .brunch_item_card {
+        flex-direction: column;
+        height: auto;
+    }
+    .brunch_item_card_left_content, .brunch_item_card_right_content  {
+        width: 100%;
+    }
+}
+
+/* ******************************************************  MEDIA QUERY FOR TABLET ***************************************** */
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .brunch_item_card {
+        height: auto;
+    }
+}

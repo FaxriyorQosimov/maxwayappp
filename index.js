@@ -120,6 +120,6 @@ async (req, res)=>{
 
 const PORT = config.get('port') || 9002
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("BE started at port 9002");
 })
